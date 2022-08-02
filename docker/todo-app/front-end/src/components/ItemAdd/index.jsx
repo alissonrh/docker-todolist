@@ -12,7 +12,7 @@ function ItemAdd() {
   return (
     <div className="item-add">
       <div>
-        <label>Nova tarefa:</label>
+        <label>Nova tareeeeefa:</label>
         <input
           data-testid="todo-task-input" 
           value={description} 
