@@ -12,7 +12,7 @@ services:
     ports:
       - 3000:3000
     depends_on: 
-    - todobackend
+    - todoback
     environment:
       REACT_APP_API_HOST: todoback
   todoback:
