@@ -1,4 +1,4 @@
-FROM node:14-alpine AS todofrontend
+FROM node:14-alpine 
 
 WORKDIR /app
 
@@ -8,4 +8,5 @@ COPY . .
 
 EXPOSE 3000
 
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["npm"]
+CMD ["start"]
